@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./dist/output.css" />
+    <script src="./dist/js/index.js"></script>
+    <title>Sticky</title>
+  </head>
+  <body class="h-[2000px]">
+    <header
+      class="absolute bg-transparent top-0 left-0 right-0 w-full flex items-center z-50"
+    >
+      <article class="container">
+        <div class="flex items-center justify-between relative">
+          <div class="title p-4">
+            <a href="#home" class="font-bold text-lg text-green-500">RIDSOR</a>
+          </div>
+          <div class="flex items-center p-4">
+            <button class="hamburger block absolute right-4 md:hidden">
+              <span class="hamburger-line"></span>
+              <span class="hamburger-line"></span>
+              <span class="hamburger-line"></span>
+            </button>
+            <nav id="nav-menu hidden">
+              <ul class="flex gap-x-2">
+                <li>
+                  <a href="#home">Beranda</a>
+                </li>
+                <li>
+                  <a href="#home">About</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </article>
+    </header>
+    <main>
+      <section class="mt-[70px]" id="home">
+        <div class="container">
+          <article class="flex justify-center">
+            <h1 class="text-5xl">Hello World!</h1>
+          </article>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
